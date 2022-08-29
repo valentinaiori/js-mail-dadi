@@ -7,10 +7,10 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 // generare numero random da 1 a 6 
 
-let giocatore = Math.floor(Math.random()*6);
+const giocatore = Math.floor(Math.random()*6) + 1;
 console.log('Giocatore', giocatore);
 
-let computer = Math.floor(Math.random()*6);
+const computer = Math.floor(Math.random()*6) + 1;
 console.log('Computer', computer);
 
 if(computer >= giocatore){
